@@ -1,0 +1,17 @@
+.contenedor{
+	display: inline-block;
+}
+.rectangulo{
+	margin-top: ;
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	background-color: #000;
+	animation: animacion 3s infinite;
+}
+@keyframes animacion{
+	0% {transform: translateX(50px);}
+	50%{transform: translateX(0px);}
+	100% {transform: translateX(50px);}
+
+}
